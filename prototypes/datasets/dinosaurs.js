@@ -1,4 +1,4 @@
-const dinosaurs = { 
+const dinosaurs = {
   Brachiosaurus: { carnivore: false, herbivore: true, isAwesome: true },
   Dilophosaurus: { carnivore: true, herbivore: false, isAwesome: true },
   Gallimimus: { carnivore: true, herbivore: true, isAwesome: false },
@@ -24,64 +24,64 @@ const dinosaurs = {
   Carnotaurus: { carnivore: true, herbivore: false, isAwesome: true },
   Indoraptor: { carnivore: true, herbivore: false, isAwesome: true },
   Sinoceratops: { carnivore: true, herbivore: true, isAwesome: true },
-  Stygimoloch: { carnivore: false, herbivore: true, isAwesome: true } 
+  Stygimoloch: { carnivore: false, herbivore: true, isAwesome: true }
 };
 
 const humans = {
   'Sam Neill': {
     yearBorn: 1947,
-    nationality:'Irish',
+    nationality: 'Irish',
     imdbStarMeterRating: 5000
   },
-  'Tom Wilhoit':{
+  'Tom Wilhoit': {
     yearBorn: 1777,
-    nationality:'Kiwi',
-    imdbStarMeterRating:1
+    nationality: 'Kiwi',
+    imdbStarMeterRating: 1
   },
   'Laura Dern': {
     yearBorn: 1967,
-    nationality:'American',
+    nationality: 'American',
     imdbStarMeterRating: 5000
   },
   'Jeff Goldblum': {
     yearBorn: 1952,
-    nationality:'American',
-    imdbStarMeterRating:5000
+    nationality: 'American',
+    imdbStarMeterRating: 5000
   },
   'Jeo D': {
     yearBorn: 1776,
-    nationality:'Martian',
-    imdbStarMeterRating:0
+    nationality: 'Martian',
+    imdbStarMeterRating: 0
   },
   'Richard Attenborough': {
     yearBorn: 1923,
-    nationality:'British',
-    imdbStarMeterRating:5000
+    nationality: 'British',
+    imdbStarMeterRating: 5000
   },
   'Ariana Richards': {
     yearBorn: 1979,
-    nationality:'American',
-    imdbStarMeterRating:5000
+    nationality: 'American',
+    imdbStarMeterRating: 5000
   },
   'Joseph Mazello': {
     yearBorn: 1983,
-    nationality:'American',
+    nationality: 'American',
     imdbStarMeterRating: 21
   },
   'Justin Duncan': {
     yearBorn: 1775,
-    nationality:'Alien',
+    nationality: 'Alien',
     imdbStarMeterRating: 0
   },
   'BD Wong': {
     yearBorn: 1960,
-    nationality:'American',
-    imdbStarMeterRating:5000
+    nationality: 'American',
+    imdbStarMeterRating: 5000
   },
   'Chris Pratt': {
     yearBorn: 1979,
-    nationality:'American',
-    imdbStarMeterRating:500
+    nationality: 'American',
+    imdbStarMeterRating: 500
   },
   'Karin Ohman': {
     yearBorn: 1995,
@@ -90,10 +90,10 @@ const humans = {
   },
   'Bryce Dallas Howard': {
     yearBorn: 1981,
-    nationality:'American',
-    imdbStarMeterRating:80
+    nationality: 'American',
+    imdbStarMeterRating: 80
   }
-}; 
+};
 
 const movies = [
   {
@@ -120,18 +120,13 @@ const movies = [
     ],
     yearReleased: 1993,
     hasOscar: true,
-    millionsGrossed: 1029,
+    millionsGrossed: 1029
   },
   {
     title: 'The Lost World: Jurassic Park',
     director: 'Steven Spielberg',
     leadingActor: 'Jeff Goldblum',
-    cast: [
-      'Jeff Goldblum',
-      'Richard Attenborough',
-      'Ariana Richards',
-      'Joseph Mazello'
-    ],
+    cast: ['Jeff Goldblum', 'Richard Attenborough', 'Ariana Richards', 'Joseph Mazello'],
     dinos: [
       'Compsognathus',
       'Gallimimus',
@@ -153,11 +148,20 @@ const movies = [
     director: 'Joe Johnston',
     leadingActor: 'Sam Neill',
     cast: ['Sam Neill', 'Laura Dern'],
-    dinos: ['Ankylosaurus', 'Brachiosaurus', 'Ceratosaurus', 'Corythosaurus', 'Parasaurolophus', 'Pteranodon', 'Spinosaurus', 'Stegosaurus', 'Triceratops', 'Tyrannosaurus Rex', 'Velociraptor'],
-    cast: [
-      'Sam Neill',
-      'Laura Dern'
+    dinos: [
+      'Ankylosaurus',
+      'Brachiosaurus',
+      'Ceratosaurus',
+      'Corythosaurus',
+      'Parasaurolophus',
+      'Pteranodon',
+      'Spinosaurus',
+      'Stegosaurus',
+      'Triceratops',
+      'Tyrannosaurus Rex',
+      'Velociraptor'
     ],
+    cast: ['Sam Neill', 'Laura Dern'],
     dinos: [
       'Ankylosaurus',
       'Brachiosaurus',
@@ -247,5 +251,5 @@ const movies = [
 module.exports = {
   dinosaurs,
   humans,
-  movies,
+  movies
 };
